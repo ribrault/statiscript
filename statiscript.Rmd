@@ -1,242 +1,187 @@
 ---
-title: "Statiscript"
+title: "Combien de cas particuliers faut-il pour faire un cas général ?"
 author: Claire Ribrault
 output: pdf_document
 ---
 
-Combien de cas particuliers faut-il pour faire un cas général ?
-
- 
-
- 
 
 INTRO
+=====
 
- 
 
 Analyser des données
+====================
 
- 
 
-D'où partez-vous ?
-
-Avez-vous déjà une question en tête ? Une observation ?
-
- 
+D'où partez-vous?\
+Avez-vous déjà une question en tête? Une observation?
 
 Il s'agit ici de voir comment analyser des données, de mesures,
 d'observations, pour répondre à une question.
 
- 
-
-Est-ce qu'on peut analyser des données sans avoir de question ?
-
+Est-ce qu'on peut analyser des données sans avoir de question?\
 A priori, tout début d'analyse répond à une question, qui peut être
-cachée.
-
-Par exemple, si on fait une moyenne, on se pose la question : quelle est
-la moyenne de ces nombres ? Et non pas quelle est la valeur maximum par
-exemple. C'est déjà une première étape : avoir conscience de ce que l'on
+cachée.\
+Par exemple, si on fait une moyenne, on se pose la question: quelle est
+la moyenne de ces nombres? Et non pas quelle est la valeur maximum par
+exemple. C'est déjà une première étape: avoir conscience de ce que l'on
 cherche.
 
- 
-
 Parfois, cela ne veut pas dire qu'il faut se restreindre à une
-question : explorer des données, c'est peut-être poser toutes les
+question: explorer des données, c'est peut-être poser toutes les
 questions auxquelles on n'aurait pas pensé avant d'avoir ces données.
 
- 
-
-Parfois, ce sont aussi les données qui nous posent des questions...
-
-Comment les données peuvent-elles nous poser des questions ?
-
-Pourquoi dit-on parfois, « faire parler les données » ?
-
-Ne s'agit-il pas plutôt d'interpréter ? Peut-on vraiment prétendre
-qu'elles parlent d'elles-mêmes ? Il peut nous arriver de les comprendre
-de travers, il peut y avoir des malentendus...
-
-[Donna Haraway : considérer les objets étudiés comme capables d'agir,
+Parfois, ce sont aussi les données qui nous posent des questions...\
+Comment les données peuvent-elles nous poser des questions?\
+Pourquoi dit-on parfois, «faire parler les données»?\
+Ne s'agit-il pas plutôt d'interpréter? Peut-on vraiment prétendre
+qu'elles parlent d'elles-mêmes? Il peut nous arriver de les comprendre
+de travers, il peut y avoir des malentendus...\
+[Donna Haraway: considérer les objets étudiés comme capables d'agir,
 comme actants.]
 
- 
+Avez-vous une relation affective avec vos données?
 
-Avez-vous une relation affective avec vos données ?
-
- 
-
-Comment regarder des données ? Par où commencer ?
+Comment regarder des données? Par où commencer?
 
 S'il s'agissait de les faire parler, il faudrait les écouter. Si on
-cherche à les regarder... que dire ? Qu'elles écrivent ?
-
- 
+cherche à les regarder... que dire? Qu'elles écrivent?
 
 Quelle différence fait-on entre une donnée, une mesure, une
-observation ?
+observation?
 
- 
+Combien de données faut-il? Est-ce qu'une donnée suffit?
 
-Combien de données faut-il ? Est-ce qu'une donnée suffit ?
+Est-ce difficile d'acquérir les données qui vous intéressent? Pourquoi
+dit-on acquérir d'ailleurs?
 
-Est-ce difficile d'acquérir les données qui vous intéressent ? Pourquoi
-dit-on acquérir d'ailleurs ?
+Dans quelles conditions ont-elles été acquises? Par qui? Dans quel
+contexte? Avec quel outil? Selon quelles méthode?
 
-Dans quelles conditions ont-elles été acquises ? Par qui ? Dans quel
-contexte ? Avec quel outil ? Selon quelles méthode ?
+Et si on partait plutôt d'un même jeu de données, tous ensemble.
+================================================================
 
- 
+Ce serait peut-être plus simple. Par exemple, prenons unjeu de ??.
 
- 
-
-<span class="T2">Et si on partait plutôt d'un même jeu de données, tous
-ensemble.</span>
-
- 
-
- 
-
-Ce serait peut-être plus simple. Par exemple, prenons un jeu de ??.
-
- 
-
-Quelqu'un a mesuré X et Y sur 132 individus.\
-Combien de temps cela lui a-t-il pris, à votre avis ? Combien cela lui
-a-t-il coûté ? <span class="T1">Est-ce que cela a coûté à quelqu'un
-d'autre?A-t-il pu faire des erreurs de mesure ? Sélectionné seulement
-les données qui l'arrangent ?Admettons qu'on lui fasse confiance.</span>
+Quelqu'un a mesuré $X$ et $Y$ sur 132 individus.\
+Combien de temps cela lui a-t-il pris, à votre avis? Combien cela lui
+a-t-il coûté? Est-ce que cela a coûté à quelqu'un
+d'autre?A-t-il pu faire des erreurs de mesure? Sélectionné seulement
+les données qui l'arrangent?Admettons qu'on lui fasse confiance.
 
 Cette personne a ensuite rangé ces nombres dans un tableau à deux
 colonnes.
 
- 
-
 Sur l'image ci-contre, un graphique, on représente ces données. C'est
 une image, qui permet de visualiser les nombres. Pratique, parfois...
 
- 
+Comment le lire? Chaque type de graphique est différent. Comment
+pouvez-vous décrire celui-ci? Quelles informations sont présentes?
+Comment retrouver les nombres du tableau?
 
-Comment le lire ? Chaque type de graphique est différent. Comment
-pouvez-vous décrire celui-ci ? Quelles informations sont présentes ?
-Comment retrouver les nombres du tableau ?
 
- 
+Est-ce qu'il vous semble joli? Est-ce qu'il vous fait penser à quelque
+chose que vous avez déjà vu avant? Est-ce qu'il vous évoque des
+questions?
 
-Est-ce qu'il vous semble joli ? Est-ce qu'il vous fait penser à quelque
-chose que vous avez déjà vu avant ? Est-ce qu'il vous évoque des
-questions ?
 
- 
 
-Considérons chaque point comme un couple de mesures, X & Y
+Considérons chaque point comme un couple de mesures, $X$ et $Y$
 
 La première chose que je vois, c'est que les 132 points (donc les 132
 individus) ne sont pas identiques. On est bien avancés. Peut-être qu'on
 peut essayer d'aller plus loin.
 
-S'ils ne sont pas identiques : à quel point se ressemblent-ils ?
+S'ils ne sont pas identiques: à quel point se ressemblent-ils?
 
-Est-ce qu'ils vous semblent « organisées » ?
+Est-ce qu'ils vous semblent «organisées»?
 
 A quoi ressemblerait le graphe si les points étaient réparties
-complètement au hasard ? Et s'ils étaient complètement organisés ?
+complètement au hasard? Et s'ils étaient complètement organisés?
 
 On est donc quelque part entre les deux. Il y a une organisation, et il
 y a un écart à cette organisation. Peut-être que l'écart est dû au
 hasard, peut-être pas, il est trop tôt pour le dire.
 
- 
 
-A quelle question cherche-t-on à répondre déjà ? Est-ce que ces données
-vous ont évoqué une question ?
-
- 
+A quelle question cherche-t-on à répondre déjà? Est-ce que ces données
+vous ont évoqué une question?
 
 Par exemple, est-ce que...
 
- 
 
-Ce qui serait pratique, ce serait de pouvoir « prédire » en quelque
+Ce qui serait pratique, ce serait de pouvoir «prédire» en quelque
 sorte, la prochaine mesure, la 133ème...
 
- 
 
-Cet outil, qui peut prédire, appelons-le un « modèle » : Il y a beaucoup
+
+Cet outil, qui peut prédire, appelons-le un «modèle»: Il y a beaucoup
 de types de modèles différents. On verra ça plus tard.
 
- 
 
 Il faut construire ce modèle. C'est à vous de le faire. Peut-être
 quelqu'un d'autre construira un modèle différent. On pourra alors
 discuter quel modèle est le plus pratique, efficace, joli, compliqué,
 etc...
 
- 
 
 Dans notre cas, pensez-vous qu'on puisse prédire avec exactitude la
-133ème mesure, par exemple, si X vaut xxx, que pensez-vous que vaudrait
-Y ?
+133ème mesure, par exemple, si $X$ vaut $xxx$, que pensez-vous que vaudrait
+Y?
 
 Vous avez sans doute une idée approximative.
 
- 
 
-Comment procéder vous pour avoir cette idée ?
+Comment procéder vous pour avoir cette idée?
 
-Par exemple, si je vous dis que X vaut xxx, combien vaudra Y ?
+Par exemple, si je vous dis que $X$ vaut $xxx$, combien vaudra $Y$?
 
-Vous allez me dire, on dirait que Y vaudra environ X multiplié par alpha
+Vous allez me dire, on dirait que $Y$ vaudra environ $X$ multiplié par alpha
 
- 
 
 Jusque là, vous me direz, c'est une règle de trois, pas besoin de
-compliquer davantage. X et Y sont proportionnels...
+compliquer davantage. $X$ et $Y$ sont proportionnels...
 
 Admettons, essayons quand même de continuer.
 
- 
 
-Si vous permettez, on va écrire : X \~ alpha . Y
 
-C'est une première étape du modèle. Mais cela reste assez peu précis :
-que veut dire ce « environ égal ? » est-ce un presque égal ? À peu près
-égal ? Très proche de ?
+Si vous permettez, on va écrire: X \~ $\alpha$ . Y
 
- 
+C'est une première étape du modèle. Mais cela reste assez peu précis:
+que veut dire ce «environ égal?» est-ce un presque égal? À peu près
+égal? Très proche de?
 
-Comment décrire ce côté « approximatif» ?
 
- 
+
+Comment décrire ce côté «approximatif»?
+
+
 
 Il faudrait pouvoir dire à quel point vous êtes certain de cette valeur.
 Ou donner un intervalle, et dire à quel point vous êtes certain de cet
 intervalle. Les statistiques sont l'étude de l'incertitude. Voilà ce
-qu'il nous faut !
+qu'il nous faut!
 
- 
+
 
 Il faudrait pouvoir écrire X = alpha . Y + E
 
 où E nous donne cette incertitude...
 
- 
+
 
 [là ça se complique, il faut introduire ici ou avant la notion de
 distribution]
 
- 
+
 
 Voilà notre modèle. Ce qui nous intéresse maintenant, c'est d'abord de
 calculer, d'estimer... alpha et E. Ensuite, ce qu'il faudra vérifier,
 c'est à quel point il est utile pour décrire nos données, et pour
 prédire les données suivantes...
 
- 
-
-Calculer ? Estimer ? alpha et E ? Il y a un truc qui me manque ici.
-
- 
+Calculer? Estimer? alpha et E? Il y a un truc qui me manque ici.
 
 Ensuite, ce qu'on cherche à estimer, c'est à quel point il est probable
 que les X soit effectivement proportionnel à Y avec le facteur alpha et
@@ -244,182 +189,142 @@ la dispersion E, <span class="T1">en sachant </span>les données que l'on
 a obtenues, c'est-à-dire à quel point les paramètres sont probables,
 sachant les données
 
- 
+P (paramètres | données) [expliquer la notation si pas fait avant]
 
-P (paramètres |  données) [expliquer la notation si pas fait avant]
-
- 
 
 cela vous rappelle peut-être des souvenirs...
 
-(raconter ce paragraphe :)
+(raconter ce paragraphe:)
 
 P(A,B) = P(A|B) x P(B)
 
-soit P(A|B)  = P(A,B) / P(B) = P(A) P(B|A) / P(B)
+soit P(A|B) = P(A,B) / P(B) = P(A) P(B|A) / P(B)
 
 et P(B), on peut aussi l'écrire...
 
- 
 
 Si on revient à ce qui nous intéresse, A serait les paramètres et B
 serait les données
 
-<span class="T2">P(paramètres | données)</span> = P(paramètres)
+P(paramètres | données) = P(paramètres)
 P(données | paramètres) / P(données)
 
- 
 
 et ici, pour obtenir ce qui nous intéresse, il nous faut
 
-- P(données | paramètres) : cela s'appelle la <span
-class="T1">vraisemblance</span> [blablater qqch?]. A quel point,
+- P(données | paramètres): cela s'appelle la vraisemblance [blablater qqch?]. A quel point,
 imaginons que mon processus suivent le modèle avec les paramètres
-identifiés, mes données sont « probables »... ?
+identifiés, mes données sont «probables»...?
 
-- P(paramètres) : c'est ce qu'on appelle le <span
-class="T1">prior</span>
+- P(paramètres): c'est ce qu'on appelle le
+prior
 
-<span class="T1">- </span>et P (données)
+- et P (données)
 
- 
+Comment avancer?
 
-Comment avancer ?
+La vraisemblance: elle se choisit... comment?
 
-La vraisemblance : elle se choisit... comment ?
+Le prior: il se choisit... comment?
 
-Le prior : il se choisit... comment ?
+P(données)... se calcule?
 
-P(données)... se calcule ?
-
- 
 
 Mais alors, on choisit complètement la probabilité, on ne la calcule
-pas... Qu'est-ce qui nous assure que notre probabilité est correcte ?
-Qu'est-ce qui nous assure au final que notre modèle est correct ?
+pas... Qu'est-ce qui nous assure que notre probabilité est correcte?
+Qu'est-ce qui nous assure au final que notre modèle est correct?
 
- 
 
 [reprendre article Berger ici]
-
- 
-
- 
 
 –
 
 comment complexifier ensuite, pourquoi besoin d'un tel attirail...
 donner des exemples pour lesquels ce formalisme est puissant.
 
- 
 
 Mentionner les statistiques standards à un moment peut-être et la
 p-value, selon à qui s'adresse ce texte...
 
- 
+et quand vous faites une moyenne... c'est aussi des statistiques...?
 
-et quand vous faites une moyenne... c'est aussi des statistiques... ?
+Introduction du vocabulaire, faire un lexique illustré?
 
- 
-
-Introduction du vocabulaire =\> faire un lexique illustré ?
-
- 
-
- 
 
 Acquérir des données
+====================
 
- 
-
-Admettons, vous avez une question, à laquelle pour répondre, « il faut
-aller voir ».
-
- 
+Admettons, vous avez une question, à laquelle pour répondre, «il faut
+aller voir».
 
 Commençons par faire une observation, ou une mesure. Notez-la. Comment
-la noter ?
+la noter?
 
-S'agit-il d'un nombre  ? D'une image ? D'une odeur ?...
-
- 
+S'agit-il d'un nombre ? D'une image? D'une odeur?...
 
 Admettons, il s'agit d'un nombre. C'est plus simple pour commencer. Vous
-avez fait une mesure. Sur quel objet ? Quand ? Dans quel contexte ? Avec
-quel outil ? Ah oui, cela ressemble à un interrogatoire... Mais c'est
+avez fait une mesure. Sur quel objet? Quand? Dans quel contexte? Avec
+quel outil? Ah oui, cela ressemble à un interrogatoire... Mais c'est
 important, vous verrez par la suite.
 
- 
 
-Est-ce que vous pouvez maintenant répondre à la question ? A quel point
-êtes-vous sûr de cette réponse ? Qu'est-ce que cela signifie, être sûr
-de cette réponse ?
+
+Est-ce que vous pouvez maintenant répondre à la question? A quel point
+êtes-vous sûr de cette réponse? Qu'est-ce que cela signifie, être sûr
+de cette réponse?
 
 Que si vous recommencez, ou si quelqu'un d'autre recommence, il trouvera
-la même réponse ?
+la même réponse?
 
- 
+
 
 Essayons alors...
 
- 
+
 
 Pouvez-vous faire la même mesure, sur le même objet, avec le même outil,
-une deuxième fois ?
+une deuxième fois?
 
-Que se passe-t-il ? Obtenez-vous la même mesure ?
+Que se passe-t-il? Obtenez-vous la même mesure?
 
-A quel point êtes-vous sur que la mesure est identique ? Quelle
-précision avez-vous sur cette mesure ?
+A quel point êtes-vous sur que la mesure est identique? Quelle
+précision avez-vous sur cette mesure?
 
 Si la mesure est un peu différente, même un tout petit peu, on peut
 appeler cela une erreur de mesure.
 
 Si la mesure est très différente, cela laisse penser que votre mesure
-n'est pas très fiable : qu'est-ce qui pourrait expliquer cette
-différence ?
+n'est pas très fiable: qu'est-ce qui pourrait expliquer cette
+différence?
 
- 
+
 
 Peut-être qu'il vous était impossible de faire la mesure une 2ème fois
 sur le même objet. Dans ce cas, pouvez-vous trouver un autre objet
-similaire ? A quel point est-il similaire ? Que savez-vous de ces
-objets ? De leur histoire ?
+similaire? A quel point est-il similaire? Que savez-vous de ces
+objets? De leur histoire?
 
- 
 
-Pourquoi d'ailleurs les appeler objets plutôt que sujets ? (cf Haraway
+
+Pourquoi d'ailleurs les appeler objets plutôt que sujets? (cf Haraway
 again)
 
-Pourquoi parler de « données » ? qu'est-ce qui est donné par qui à qui ?
+Pourquoi parler de «données»? qu'est-ce qui est donné par qui à qui?
 
- 
-
-Combien de fois pouvez-vous répéter votre mesure ?
+Combien de fois pouvez-vous répéter votre mesure?
 
 Allez-y, prenez le temps qu'il vous faudra.
 
- 
-
 Collecter, partager des données
+===============================
 
- 
-
-Vous avez maintenant un « jeu de données », comme un jeu de cartes, un
+Vous avez maintenant un «jeu de données», comme un jeu de cartes, un
 jeu de clés... un ensemble de données.
 
 Peut-être sont-elles toutes identiques, peut-être pas.
 
- 
-
-Comment pourriez-vous les décrire ? Les raconter à quelqu'un qui ne les
+Comment pourriez-vous les décrire? Les raconter à quelqu'un qui ne les
 a pas en mains, pour qu'il puisse avoir une idée très précise de ce jeu
-de données ?
+de données?
 
- 
-
-Pourriez-vous peut-être les représenter ?
-
- 
-
- 
+Pourriez-vous peut-être les représenter?

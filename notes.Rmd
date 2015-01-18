@@ -1,0 +1,52 @@
+---
+title: "Autour du statiscript"
+author: "de joyeux errants"
+output:
+  pdf_document:
+    toc: true
+    toc_depth: 2
+---
+
+
+
+# 18/01/2015, Tim
+
+J'ai lu le statiscript.
+Pour l'instant, je n'ai rien voulu modifier directement dans le texte.
+Je voudrais d'abord que tu me dises comment tu voies ma contribution, seulement des remarques, ou bien une véritable collaboration tant sur le fond que la forme.
+Si nous collaborons, je souhaiterai que non seulement l'objet final mais aussi le processus menant à sa création (c'est-à-dire nos discussions), soient sous licence libre, par exemple CC BY-SA 4.0.
+
+En attendant, voici mes remarques, dans l'ordre du texte:
+
+* au tout début, faire le lien avec "le script", histoire de ne pas partir de zéro
+
+* "analyser": mot dur? peut rebuter? être associé au réductionisme? et même si c'est vrai, est-ce un problème?
+
+* peut-être jouer sur le mot "données": don? don de qui? comparaison avec "volées"? volées à qui? "données attrapées au vol"? je m'égare
+
+* moyenne, maximum: trop précis pour un début
+
+* "données/observations/mesures" (tous synonymes a priori? que des noms féminins?): elles présupposent l'acte de "mesurer", donc la définition préalable d'une variable et de son unité
+
+* "jeu de données": "jeu" donc "jouer", différent de "data set", qu'en est-il des autres langues? utiliser le [Google Ngrams viewer](https://books.google.com/ngrams)
+
+* "jeu de données": cette expression française semble être apparue au début du XXe siècle, puis à augmenter à partir des années 1960; "statistique": augmente à partir de 1800; "modélisation": augmente à partir de 1970
+
+* exemple: commencer par la régression/corrélation (évaluer l'association entre x et y) ou le mélange (trouver des groupes au sein des x)? a priori plutôt la régression; voir si Kass dit quelque chose là-dessus dans [Statistical Inference: The Big Picture](http://www.citeulike.org/user/timflutre/article/9853855)
+
+* "erreur de mesure": oui, forcément, mais plutôt à voir sous l'angle de la précision, par exemple le nombre de chiffres après la virgule, ce qui fait le lien avec l'appareil de mesure; garder aussi en tête (pour la suite?) l'existence des méta-données
+
+* "organisation": peut-être à remplacer par "tendance"?
+
+* "visualiser": après tout, pourquoi est-ce si pratique de **voir** les données? lien avec l'art, "un dession vaut mieux que mille mots"? voir ce que dit Gelman et collègues dans [cet article](http://www.citeulike.org/user/timflutre/article/8530579)
+
+* "hasard": aouch, concept très compliqué ;)
+
+* définir "modèle" via "prédire": je ne suis pas sûr que ça me satisfasse, ou peut-être n'est-ce que la formulation à changer?
+
+* dans son article, Kass explique bien comment il introduit les variables aléatoires, s'en inspirer?
+
+
+# 13/01/2015, Claire
+
+* n’hésite pas à jouer avec

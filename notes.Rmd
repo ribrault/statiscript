@@ -7,6 +7,26 @@ output:
     toc_depth: 2
 ---
 
+# 19/01/2015, Claire
+
+Merci beaucoup de tes commentaires.
+Pour la collaboration, c'est tout à fait ouvert. C'est selon comment tu veux contribuer toi. 
+Je n'ai pas les compétences pour faire une introduction bien rigoureuse sur les questions de modèle et analyse statistique. J'ai bien envie d'en apprendre davantage à cette occasion.
+Je peux donc avancer principalement toute seule, avec régulièrement des remarques et commentaires de ta part, mais si cela te tente de contribuer davantage on peut tout à fait essayer et voir comment cela marche.
+Est-ce que cela répond à ta question ?
+
+Pour ce qui est de l'objet final et du processus, aucun problème pour le mettre sous licence libre. On pourra discuter sur le caractère NC de la licence CC.
+Aussi, comme pour le script, je propose qu'il soit indiqué comme "co-produit" (terme à ajuster et confirmer) avec l'AJA.
+
+Concernant tes remarques sur le texte lui-même, est-ce que ce ne serait pas plus simple de les insérer directement dans le fichier statiscript sous forme de commentaire aux endroits concernés ?
+Je n'ai pas encore pris le temps de transférer ainsi tes remarques, mais je pense que ce serait utile de le faire.
+
+En ce qui concerne tes remarques sur l'usage des mots, elles me semblent pertinentes et à discuter, mais en ce qui me concerne j'aurais tendance à travailler d'abord une trame globale sur le déroulé & le contenu (tout en mettant des notes sur les mots de vocabulaire à discuter), puis ajuster sur le choix des mots. C'est bien sûr un peu extrême dit ainsi, mais c'est pour dire que sur le script précédent, les mots ont beaucoup évolué au fur et à mesure, et qu'il me semble difficile de se fixer dès le début (ce qui n'empêche pas de discuter).
+En tout cas, j'apprécie toutes tes remarques qui sont pertinentes et intéressantes pour le statiscript à mes yeux.
+
+Enfin, même si j'aime bien l'idée de garder une trace écrite, je pense qu'il sera utile de discuter aussi de vive voix (e.g. par skype), pour que tu m'expliques certains aspects, ou pour discuter de choix à faire.
+Un équilibre entre l'écrit et l'oral à chercher / trouver si cela te va.
+
 
 
 # 18/01/2015, Tim
@@ -15,6 +35,7 @@ J'ai lu le statiscript.
 Pour l'instant, je n'ai rien voulu modifier directement dans le texte.
 Je voudrais d'abord que tu me dises comment tu voies ma contribution, seulement des remarques, ou bien une véritable collaboration tant sur le fond que la forme.
 Si nous collaborons, je souhaiterai que non seulement l'objet final mais aussi le processus menant à sa création (c'est-à-dire nos discussions), soient sous licence libre, par exemple CC BY-SA 4.0.
+
 
 En attendant, voici mes remarques, dans l'ordre du texte:
 

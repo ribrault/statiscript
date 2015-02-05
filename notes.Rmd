@@ -6,6 +6,10 @@ output:
     toc: true
     toc_depth: 2
 ---
+# 05/02/2015, Claire
+
+fait-on le choix de se focaliser sur l'approche Bayesienne ou cherche-t-on à discuter aussi l'approche fréquentiste ?
+je crois que ça serait intéressant mais ça ajoute une couche de complexité...
 
 # 19/01/2015, Claire
 

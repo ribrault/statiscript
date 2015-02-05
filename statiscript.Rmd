@@ -4,120 +4,164 @@ author: Claire Ribrault
 output: pdf_document
 ---
 
+# * au tout début, faire le lien avec "le script", histoire de ne pas partir de zéro
 
 INTRO
 =====
 
 
-Analyser des données
+Comment répond-on à une question ?
+Cela dépend de la question posée.
+
+"il s'agit de mettre en place une méthode."
+Certes.
+
+Prenons un exemple, ici un cas où on peut mesurer des observations.
+
+Nous allons aussi interroger les mots.
+Mesurer : avec quoi peut-on mesurer ? quel outil ? qu'est-ce qu'une mesure ?...
+Observer : avec quoi peut-on observer ? Est-ce qu'on peut observer "de l'extérieur", sans être vu, et donc sans perturber ce que l'on observe ?...
+
+Un exemple
+==========
+
+
+Partons par exemple de la question : est-ce qu'on peut se fier à la couleur d'un grain de raisin pour estimer sa teneur en sucre ?...
+
+# @Tim, pas très fun comme question... idées bienvenues.
+Il y aurait plusieurs façons de répondre à la question. 
+En fait, avant de choisir une méthode, il faut commencer par reformuler la question.
+
+Comment la reformuleriez-vous ?
+
+Par exemple, je peux reformuler la question selon "est-ce que la teneur en sucre influence la couleur d'un grain de raisin". Je pourrais alors être tentée de modifier la teneur en sucre de grains de raison et observer si cela changeait leur couleur...
+
+Plus simplement, je peux aussi reformuler la question selon "est-ce que les grains de raisin qui ont une teneur en sucre élevée ont une couleur différente de celle des grains de raisin avec une faible teneur en sucre ?"
+
+En d'autres termes, est-ce qu'il y a une corrélation entre la couleur des grains de raisin et leur teneur en sucre ?
+# corrélation à introduire ici ou pas ?
+
+Qu'aimeriez-vous faire dans ce cas pour répondre à la question ?
+
+# bof
+
+#* exemple: commencer par la régression/corrélation (évaluer l'association entre x et y) ou le mélange (trouver des groupes au sein des x)? a priori plutôt la régression; voir si Kass dit quelque chose là-dessus dans [Statistical Inference: The Big Picture](http://www.citeulike.org/user/timflutre/article/9853855)
+# OUI pour l'exemple avec une régression/corrélation.
+
+# voir quoi trouver comme exemple concret. Ici il faudrait discuter comment on mesure la couleur... mais c'est un peu trop je crois pour un début.
+
+Quelqu'un a mesuré $X$ et $Y$ sur 132 grains de raisins. 
+# introduire le terme "individu" ? plus tard.
+
+Qui ? Combien de temps cela lui a-t-il pris, à votre avis? Combien cela lui
+a-t-il coûté? Est-ce que cela a coûté à quelqu'un d'autre? Etait-il(elle) seul(e) ?
+
+Comment a-t-il mesuré ces caractéristiques ?
+
+De quels grains de raisin s'agit-il ?
+
+A quoi vous attendez-vous ?
+
+
+
+
+
+
+Cette personne a ensuite rangé ces nombres dans le tableau ci-contre.
+L'ensemble de ces informations s'appelle un jeu de données.
+
+# commenter "jeu" et "données" ?
+
+
+Regarder des données
 ====================
 
+Que faire d'un tel tableau ? Que proposez-vous de faire de tous ces chiffres ?
 
-D'où partez-vous?\
-Avez-vous déjà une question en tête? Une observation?
+# mentionner Anscombe quartet qq part ?
 
-Il s'agit ici de voir comment analyser des données, de mesures,
-d'observations, pour répondre à une question.
+# citer Tufte ? Often the most effective way to describe, explore and summarize a set of numbers – even a very large set – is to look at pictures of those numbers.
 
-Est-ce qu'on peut analyser des données sans avoir de question?\
-A priori, tout début d'analyse répond à une question, qui peut être
-cachée.\
-Par exemple, si on fait une moyenne, on se pose la question: quelle est
-la moyenne de ces nombres? Et non pas quelle est la valeur maximum par
-exemple. C'est déjà une première étape: avoir conscience de ce que l'on
-cherche.
+Voici une représentation des données, sur l'image ci-contre, un graphique.
 
-Parfois, cela ne veut pas dire qu'il faut se restreindre à une
-question: explorer des données, c'est peut-être poser toutes les
-questions auxquelles on n'aurait pas pensé avant d'avoir ces données.
+Comment le lire? Chaque type de graphique est différent. 
+Comment pouvez-vous décrire celui-ci? Quelles informations sont présentes?
+Réussissez-vous à retrouver les nombres du tableau ?
 
-Parfois, ce sont aussi les données qui nous posent des questions...\
-Comment les données peuvent-elles nous poser des questions?\
-Pourquoi dit-on parfois, «faire parler les données»?\
-Ne s'agit-il pas plutôt d'interpréter? Peut-on vraiment prétendre
-qu'elles parlent d'elles-mêmes? Il peut nous arriver de les comprendre
-de travers, il peut y avoir des malentendus...\
-[Donna Haraway: considérer les objets étudiés comme capables d'agir,
-comme actants.]
+Chaque point correspond à un couple de mesures, $X$ et $Y$, sur un même individu. C'est à dire un grain de raisin, mais le mot générique est individu. Il y a donc 132 points.
 
-Avez-vous une relation affective avec vos données?
-
-Comment regarder des données? Par où commencer?
-
-S'il s'agissait de les faire parler, il faudrait les écouter. Si on
-cherche à les regarder... que dire? Qu'elles écrivent?
-
-Quelle différence fait-on entre une donnée, une mesure, une
-observation?
-
-Combien de données faut-il? Est-ce qu'une donnée suffit?
-
-Est-ce difficile d'acquérir les données qui vous intéressent? Pourquoi
-dit-on acquérir d'ailleurs?
-
-Dans quelles conditions ont-elles été acquises? Par qui? Dans quel
-contexte? Avec quel outil? Selon quelles méthode?
-
-Et si on partait plutôt d'un même jeu de données, tous ensemble.
-================================================================
-
-Ce serait peut-être plus simple. Par exemple, prenons unjeu de ??.
-
-Quelqu'un a mesuré $X$ et $Y$ sur 132 individus.\
-Combien de temps cela lui a-t-il pris, à votre avis? Combien cela lui
-a-t-il coûté? Est-ce que cela a coûté à quelqu'un
-d'autre?A-t-il pu faire des erreurs de mesure? Sélectionné seulement
-les données qui l'arrangent?Admettons qu'on lui fasse confiance.
-
-Cette personne a ensuite rangé ces nombres dans un tableau à deux
-colonnes.
-
-Sur l'image ci-contre, un graphique, on représente ces données. C'est
-une image, qui permet de visualiser les nombres. Pratique, parfois...
-
-Comment le lire? Chaque type de graphique est différent. Comment
-pouvez-vous décrire celui-ci? Quelles informations sont présentes?
-Comment retrouver les nombres du tableau?
+Sur l'axe horizontal, qui s'appelle l'axe des abscisses, vous pouvez lire...
+# p-ê pas nécessaire...
 
 
-Est-ce qu'il vous semble joli? Est-ce qu'il vous fait penser à quelque
-chose que vous avez déjà vu avant? Est-ce qu'il vous évoque des
-questions?
+Est-ce que ce graphique vous semble joli? Est-ce qu'il vous fait penser à quelque
+chose que vous avez déjà vu avant? Est-ce qu'il vous évoque des questions?
 
 
 
-Considérons chaque point comme un couple de mesures, $X$ et $Y$
+
+Décrire des données
+===================
 
 La première chose que je vois, c'est que les 132 points (donc les 132
-individus) ne sont pas identiques. On est bien avancés. Peut-être qu'on
-peut essayer d'aller plus loin.
+individus) ne sont pas au même endroit. Les grains de raisins ne sont donc pas identiques. On est bien avancés.
 
-S'ils ne sont pas identiques: à quel point se ressemblent-ils?
+S'ils ne sont pas identiques: est-ce qu'ils sont proches les uns des autres ? est-ce qu'il y a des groupes de points ? 
+Est-ce qu'ils vous semblent disposés selon une régularité, selon un certain motif ? Approximativement seulement ?
 
-Est-ce qu'ils vous semblent «organisées»?
+# Est-ce qu'ils vous semblent «organisés»?
+# * "organisation": peut-être à remplacer par "tendance"?
 
-A quoi ressemblerait le graphe si les points étaient réparties
-complètement au hasard? Et s'ils étaient complètement organisés?
+# A quoi ressemblerait le graphe si les points étaient répartis complètement au hasard? Et s'ils étaient complètement organisés?
+#* "hasard": aouch, concept très compliqué ;)
+# oui, maladroit, j'enlève
 
-On est donc quelque part entre les deux. Il y a une organisation, et il
-y a un écart à cette organisation. Peut-être que l'écart est dû au
-hasard, peut-être pas, il est trop tôt pour le dire.
+A quoi aurait pu ressembler ce graphe ?
+# illustrer avec une série de graphes différents...?
 
+
+Il y a donc une forme de régularité, mais avec aussi des "écarts" à cette régularité. Comme si les points suivaient plus ou moins le motif. 
+
+# Peut-être que l'écart est dû au hasard, peut-être pas, il est trop tôt pour le dire.
+
+
+Reformuler la question ?
+========================
 
 A quelle question cherche-t-on à répondre déjà? Est-ce que ces données
-vous ont évoqué une question?
+vous ont évoqué une autre question? Vous pouvez les noter dans un coin, les garder pour la suite.
 
-Par exemple, est-ce que...
+Prenons un temps ici.
+Qu'aimerait-on savoir au juste ?
+
+REFORMULER ICI LA QUESTION EN DES TERMES QUI PERMETTENT D'INTRODUIRE LA NOTION DE MODELE.
+
+A partir de ces 132 grains de raisin, est-ce que je peux 
+identifier des propriétés de l'ensemble des grains de raisin dont sont issus ces 132 grains de raisin ?
+
+Si oui, ensuite, je pourrais tirer une conclusion générale et répondre si la teneur en sucre est corrélée avec la couleur des grains de raisin.
+
+Mais en fait, je ne pourrai jamais avoir accès à l'ensemble de cette population...
+
+Donc il s'agit d'une population "hypothétique", une population "théorique" en quelque sorte...
+
+Donc ce que je peux faire, c'est soit, regarder cet échantillon de 132 grains, et tirer des conclusions sur cet échantillon, soit, imaginer une population théorique, dont seraient issus ces grains de raisins, ...
+
+# à retravailler...
+# @Tim ici encore confus. J'aime bien le papier de Kass & big picture.
 
 
-Ce qui serait pratique, ce serait de pouvoir «prédire» en quelque
-sorte, la prochaine mesure, la 133ème...
+#Ce qui serait pratique, ce serait de pouvoir «prédire» en quelque
+#sorte, la prochaine mesure, la 133ème...
+#Cet outil, qui peut prédire, appelons-le un «modèle»: Il y a beaucoup
+#de types de modèles différents. On verra ça plus tard.
+#* définir "modèle" via "prédire": je ne suis pas sûr que ça me satisfasse, ou peut-être n'est-ce que la formulation à changer?
 
+#* dans son article, Kass explique bien comment il introduit les variables aléatoires, s'en inspirer?
 
+Concevoir cette population théorique, consiste à construire un modèle. Une représentation théorique, qui pourrait être cohérente avec les données qu'on observe.
 
-Cet outil, qui peut prédire, appelons-le un «modèle»: Il y a beaucoup
-de types de modèles différents. On verra ça plus tard.
-
+# formulation ??
 
 Il faut construire ce modèle. C'est à vous de le faire. Peut-être
 quelqu'un d'autre construira un modèle différent. On pourra alors
@@ -125,66 +169,66 @@ discuter quel modèle est le plus pratique, efficace, joli, compliqué,
 etc...
 
 
-Dans notre cas, pensez-vous qu'on puisse prédire avec exactitude la
-133ème mesure, par exemple, si $X$ vaut $xxx$, que pensez-vous que vaudrait
-Y?
+#Dans notre cas, pensez-vous qu'on puisse prédire avec exactitude la 133ème mesure, par exemple, si $X$ vaut $xxx$, que pensez-vous que vaudrait Y?
 
-Vous avez sans doute une idée approximative.
+#Vous avez sans doute une idée approximative.
 
+#Comment procéder vous pour avoir cette idée?
 
-Comment procéder vous pour avoir cette idée?
+#Par exemple, si je vous dis que $X$ vaut $xxx$, combien vaudra $Y$?
 
-Par exemple, si je vous dis que $X$ vaut $xxx$, combien vaudra $Y$?
+# Vous allez me dire, on dirait que $Y$ vaudra environ $X$ multiplié par alpha
+# voir si on peut faire autrement que passer par prédire..
 
-Vous allez me dire, on dirait que $Y$ vaudra environ $X$ multiplié par alpha
-
-
-Jusque là, vous me direz, c'est une règle de trois, pas besoin de
-compliquer davantage. $X$ et $Y$ sont proportionnels...
-
-Admettons, essayons quand même de continuer.
+# Jusque là, vous me direz, c'est une règle de trois, pas besoin de compliquer davantage. $X$ et $Y$ sont proportionnels...
 
 
+Un modèle...
+============
 
-Si vous permettez, on va écrire: X \~ $\alpha$ . Y
+Il s'agit de décrire cette population théorique...
+Allons-y étape par étape.
 
-C'est une première étape du modèle. Mais cela reste assez peu précis:
-que veut dire ce «environ égal?» est-ce un presque égal? À peu près
-égal? Très proche de?
+regarder la distribution de X ?... => introduire la notion de distribution ?
+# la question initiale est peut-être mal choisie...
 
+#Si on avait des données qui ressemblaient à [ faire un graphe où X et Y sont strictement proportionnels, sans variabilité, et suivent des lois normales ], on pourrait considérer que (...) 
 
+Ensuite, on a l'impression que plus X est grand, plus Y est grand...
+on dirait qu'il y a une "tendance"...
+On pourrait dire que X et Y sont proportionnel, approximativement.
+
+"proportionnel", c'est facile à écrire : X \~ $\alpha$ . Y
+X peut prendre plusieurs valeurs, Y aussi, proportionnellement à X.
+# introduire la notion de variable aléatoire. Ou plus tôt ?
+
+"approximativement"... c'est plus difficile.
 
 Comment décrire ce côté «approximatif»?
 
+On aimerait écrire X = alpha . Y + E
 
+où E ajoute un écart variable autour de la valeur strictement proportionnel...
+E, comme X et Y, peut prendre plusieurs valeurs. Comment décrire les valeurs qu'il peut prendre ?
 
-Il faudrait pouvoir dire à quel point vous êtes certain de cette valeur.
-Ou donner un intervalle, et dire à quel point vous êtes certain de cet
-intervalle. Les statistiques sont l'étude de l'incertitude. Voilà ce
-qu'il nous faut!
+# @ tim... comment expliquer E...
 
+faire une hypothèse sur E. 
+sur quelle base fonder cette hypothèse ?
 
+# introduire / définir la notion de paramètre
 
-Il faudrait pouvoir écrire X = alpha . Y + E
+Voilà notre modèle. Ce qui nous intéresse maintenant, c'est de
+calculer, d'estimer... alpha et d'être capable de dire à quel point notre modèle peut correspondre à nos données...
 
-où E nous donne cette incertitude...
+Estimer des paramètres ?
+----------------------
 
-
-
-[là ça se complique, il faut introduire ici ou avant la notion de
-distribution]
-
-
-
-Voilà notre modèle. Ce qui nous intéresse maintenant, c'est d'abord de
-calculer, d'estimer... alpha et E. Ensuite, ce qu'il faudra vérifier,
-c'est à quel point il est utile pour décrire nos données, et pour
-prédire les données suivantes...
-
-Calculer? Estimer? alpha et E? Il y a un truc qui me manque ici.
+Du théorique/modèle aux données...
+==================================
 
 Ensuite, ce qu'on cherche à estimer, c'est à quel point il est probable
-que les X soit effectivement proportionnel à Y avec le facteur alpha et
+que les X soit effectivement proportionnels à Y avec le facteur alpha et
 la dispersion E, <span class="T1">en sachant </span>les données que l'on
 a obtenues, c'est-à-dire à quel point les paramètres sont probables,
 sachant les données
@@ -237,22 +281,91 @@ Qu'est-ce qui nous assure au final que notre modèle est correct?
 
 [reprendre article Berger ici]
 
-–
 
+
+INTERPRETER
+=======================
+
+A-t-il pu faire des erreurs de mesure? Sélectionné seulement
+les données qui l'arrangent? Admettons qu'on lui fasse confiance.
+
+#* "erreur de mesure": oui, forcément, mais plutôt à voir sous l'angle de la précision, par exemple le nombre de chiffres après la virgule, ce qui fait le lien avec l'appareil de mesure; garder aussi en tête (pour la suite?) l'existence des méta-données
+
+Mise en perspective 
+===================
 comment complexifier ensuite, pourquoi besoin d'un tel attirail...
 donner des exemples pour lesquels ce formalisme est puissant.
 
+histoire des pratiques...
 
-Mentionner les statistiques standards à un moment peut-être et la
-p-value, selon à qui s'adresse ce texte...
+Est-ce que vous pouvez maintenant répondre à la question? A quel point
+êtes-vous sûr de cette réponse? Qu'est-ce que cela signifie, être sûr
+de cette réponse?
 
-et quand vous faites une moyenne... c'est aussi des statistiques...?
 
-Introduction du vocabulaire, faire un lexique illustré?
+Explorer des données
+====================
+
+
+# D'où partez-vous?\
+# Avez-vous déjà une question en tête? Une observation?
+
+
+#Il s'agit ici de voir comment analyser des données, de mesures, d'observations, pour répondre à une question.
+
+#* "analyser": mot dur? peut rebuter? être associé au réductionisme? et même si c'est vrai, est-ce un problème?
+
+Est-ce qu'on peut analyser des données sans avoir de question?\
+
+
+
+A priori, tout début d'analyse répond à une question, qui peut être
+cachée.\
+Par exemple, si on fait une moyenne, on se pose la question: quelle est
+la moyenne de ces nombres? Et non pas quelle est la valeur maximum par
+exemple. C'est déjà une première étape: avoir conscience de ce que l'on
+cherche.
+
+#* moyenne, maximum: trop précis pour un début
+
+
+Parfois, cela ne veut pas dire qu'il faut se restreindre à une
+question: explorer des données, c'est peut-être poser toutes les
+questions auxquelles on n'aurait pas pensé avant d'avoir ces données.
+
+Parfois, ce sont aussi les données qui nous posent des questions...\
+Comment les données peuvent-elles nous poser des questions?\
+Pourquoi dit-on parfois, «faire parler les données»?\
+Ne s'agit-il pas plutôt d'interpréter? Peut-on vraiment prétendre
+qu'elles parlent d'elles-mêmes? Il peut nous arriver de les comprendre
+de travers, il peut y avoir des malentendus...\
+[Donna Haraway: considérer les objets étudiés comme capables d'agir,
+comme actants.]
+
+Avez-vous une relation affective avec vos données?
+
+Comment regarder des données? Par où commencer?
+
+S'il s'agissait de les faire parler, il faudrait les écouter. Si on
+cherche à les regarder... que dire? Qu'elles écrivent?
+
+Quelle différence fait-on entre une donnée, une mesure, une
+observation?
+
+Combien de données faut-il? Est-ce qu'une donnée suffit?
+
+
 
 
 Acquérir des données
 ====================
+
+# * peut-être jouer sur le mot "données": don? don de qui? comparaison avec "volées"? volées à qui? "données attrapées au vol"? je m'égare
+#* "données/observations/mesures" (tous synonymes a priori? que des noms féminins?): elles présupposent l'acte de "mesurer", donc la définition préalable d'une variable et de son unité
+
+#* "jeu de données": "jeu" donc "jouer", différent de "data set", qu'en est-il des autres langues? utiliser le [Google Ngrams viewer](https://books.google.com/ngrams)
+#* "jeu de données": cette expression française semble être apparue au début du XXe siècle, puis à augmenter à partir des années 1960; "statistique": augmente à partir de 1800; "modélisation": augmente à partir de 1970
+
 
 Admettons, vous avez une question, à laquelle pour répondre, «il faut
 aller voir».
@@ -267,11 +380,12 @@ avez fait une mesure. Sur quel objet? Quand? Dans quel contexte? Avec
 quel outil? Ah oui, cela ressemble à un interrogatoire... Mais c'est
 important, vous verrez par la suite.
 
+Est-ce difficile d'acquérir les données qui vous intéressent? Pourquoi
+dit-on acquérir d'ailleurs?
 
+Dans quelles conditions ont-elles été acquises? Par qui? Dans quel
+contexte? Avec quel outil? Selon quelles méthode?
 
-Est-ce que vous pouvez maintenant répondre à la question? A quel point
-êtes-vous sûr de cette réponse? Qu'est-ce que cela signifie, être sûr
-de cette réponse?
 
 Que si vous recommencez, ou si quelqu'un d'autre recommence, il trouvera
 la même réponse?
@@ -328,3 +442,17 @@ a pas en mains, pour qu'il puisse avoir une idée très précise de ce jeu
 de données?
 
 Pourriez-vous peut-être les représenter?
+
+#* "visualiser": après tout, pourquoi est-ce si pratique de **voir** les données? lien avec l'art, "un dession vaut mieux que mille mots"? voir ce que dit Gelman et collègues dans [cet article](http://www.citeulike.org/user/timflutre/article/8530579)
+
+
+Lexique
+=======
+
+Introduction du vocabulaire, faire un lexique illustré?
+Faire des encarts pour aller plus loin, sur des concepts comme le hasard ?
+causalité
+corrélation
+individu
+paramètres
+vraisemblance

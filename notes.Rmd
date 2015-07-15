@@ -6,10 +6,42 @@ output:
     toc: true
     toc_depth: 2
 ---
+
+# 15/07/2015, Tim
+
+Après un passé à cogiter et plusieurs occasions d'esquisser ma perception de la modélisation statistique à des collègues scientifiques non-statisticiens, voici un début d'approche possible.
+
+Intro avec le paradoxe de Simpson:
+
+- http://f.hypotheses.org/wp-content/blogs.dir/253/files/2015/02/Risques-99_Charpentier.pdf
+
+- https://liorpachter.wordpress.com/2015/07/13/how-to-average-genome-wide-data/
+
+Point-clé 1: 3 citations "philo" cruciales
+
+- "all models are wrong, but some are useful" (Box, 1987);
+
+- "When we use a statistical model to make a statistical inference, we implicitly assert that the variation exhibited by data is captured reasonably well by the statistical model, so that the theoretical world corresponds reasonably well to the real world" (Kass, 2011);
+
+- "The most prominent use of mathematical modelling is to generate propositions about non-abstract constructs by interpreting true mathematical results in terms of the constructs, which qualify for general agreement because they are formally ‘true’ in mathematical reality. [...] Informal personal decisions and social negotiations are required about whether and to what extent the interpretation can be accepted." (Henning, 2010)
+
+Point-clé 2: distinction "observé" (par ex. ce qu'on appelle "les données") versus "non-observé" (par ex. les paramètres), sachant que dans la plupart des cas on est vraiment intéressé par quelque chose qui n'est pas observé, ce qui met l'accent sur la notion d'incertitude
+
+Point-clé 3: écrire le (la 1e version du) "modèle des données", qui permet d'aborder la notion de "vraisemblance", et donc la méthode consistant à la maximiser.
+Cela permet d'obtenir des valeurs pour les paramètres, mais, à ce stade-là, on n'a toujours pas de quantification de l'incertitude.
+
+Point-clé 4: pour quantifier l'incertitude, il faut donner une interprétation à l'outil mathématique qu'est la probabilité, "fréquence" ou "degré d'incertitude"
+
+Penser à mettre plein d'illustrations graphiques.
+
+*To be continued...*
+
+
 # 05/02/2015, Claire
 
 fait-on le choix de se focaliser sur l'approche Bayesienne ou cherche-t-on à discuter aussi l'approche fréquentiste ?
 je crois que ça serait intéressant mais ça ajoute une couche de complexité...
+
 
 # 19/01/2015, Claire
 
